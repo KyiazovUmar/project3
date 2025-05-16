@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Календарь</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="calendar-container">
+        <div class="header">
+            <button id="prevBtn">Мурунку</button>
+            <h2 id="monthYear"></h2>
+            <button id="nextBtn">Кийинки</button>
+        </div>
+        <table class="calendar">
+            <thead>
+                <tr>
+                    <th>Дүй</th>
+                    <th>Шей</th>
+                    <th>Шар</th>
+                    <th>Бей</th>
+                    <th>Жума</th>
+                    <th>Иш</th>
+                    <th>Жек</th>
+                </tr>
+            </thead>
+            <tbody id="calendarBody">
+                <!-- Days will be injected here -->
+            </tbody>
+        </table>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
